@@ -75,7 +75,7 @@ joins_log_channel_id = 1286944011671830559  # Replace with your actual log chann
 async def on_member_join(member):
     channel = member.guild.system_channel
     if channel:
-        await channel.send(f"{member.mention} Welcome! If your able to, invite some of your friends! And also if you want pic perms, rep /heresy in your status..")
+        await channel.send(f"{member.mention} Welcome to /heresy, we hope you enjoy your stay, also invite your friends if you can and rep /heresy for pic perms!..")
 
 @bot.event
 async def on_member_remove(member):
